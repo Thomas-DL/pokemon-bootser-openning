@@ -1,0 +1,15 @@
+{
+    "name": "thomasdelage/brainrot-tcg",
+    "autoload": {
+        "psr-4": {
+            "Thomasdelage\\BrainrotTcg\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Thomas",
+            "email": "software@thomasdelage.com"
+        }
+    ],
+    "require": {}
+}
