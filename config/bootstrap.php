@@ -2,10 +2,10 @@
 
 use Dotenv\Dotenv;
 
-require_once '../vendor/autoload.php';
+$basePath = dirname(__DIR__);
+
+require_once $basePath . '/vendor/autoload.php';
 
 $dotenv = Dotenv::createImmutable(__DIR__ . '/../');
 $dotenv->load();
-
-require_once __DIR__ . '/database.php';
 

@@ -2,7 +2,9 @@
     "name": "thomasdelage/brainrot-tcg",
     "autoload": {
         "psr-4": {
-            "Thomasdelage\\BrainrotTcg\\": "src/"
+            "App\\Auth\\": "app/Auth/",
+            "App\\Class\\": "app/Class/",
+            "App\\Database\\": "app/Database/"
         }
     },
     "authors": [
